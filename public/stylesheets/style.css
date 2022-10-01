@@ -1,0 +1,120 @@
+body 
+{
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(162, 176, 162);
+  width: auto;
+}
+img
+{
+  height: 92px;
+  width: 105px;
+  opacity: 100%;
+}
+a 
+{
+  color: #00B7FF;
+}
+.mic
+{
+  position: relative;
+  margin-top: 180px;
+  margin-right: 50px;
+}
+.labm
+{
+  text-size-adjust: 50px;
+  padding-right: 100px;
+  right: 50px;
+  color: aqua;
+  font-size: x-large;
+  opacity: 100%;
+}
+.imgmarg
+{
+  margin-right: 80px;
+  position: relative;
+  left: 50px;
+}
+#bc
+{
+  height: 250px;
+  width: 100%;
+  opacity: 80%;
+  background-color: rgb(60, 100, 100);
+  display: inline-block;
+}
+#lbdiv
+{
+  left: 445px;
+  margin-top: 95px;
+  margin-right: 250px;
+  padding-left: 70px;
+  position: relative;
+  display: inline-block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+}
+#imgitems
+{
+  left: 476px;
+  position: relative;
+  right: 350px;
+}
+#maincont
+{
+  background-color: rgb(180, 189, 199);
+  width: 1300px;
+  margin-left: 300px;
+  height: 1680px;
+}
+#c1
+{
+  background-color: rgb(223, 220, 220);
+  height: 500px;
+  opacity: 70%;
+  margin-left: 50px;
+  width: 1200px;
+  padding-top: 10px;
+}
+#c2
+{
+  background-color: rgb(223, 220, 220);
+  height: 500px;
+  opacity: 70%;
+  margin-left: 50px;
+  width: 1200px;
+  padding-top: 12px;
+}
+#c3
+{
+  background-color: rgb(223, 220, 220);
+  height: 500px;
+  opacity: 70%;
+  margin-left: 50px;
+  width: 1200px;
+  padding-top: 12px;
+}
+#exp
+{
+  width: 800px;
+  height: 260px;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+.pe
+{
+  font-size: medium;
+  margin-left: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hc
+{
+  margin-top: 7px;
+  margin-left: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+.head
+{
+  font-weight: lighter;
+}
