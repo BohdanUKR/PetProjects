@@ -4,17 +4,17 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) 
 {
-   res.render('partial/index');
+   res.render('index');
 });
 //Get About
-router.get('/partial/about', function(req,res,next)
+router.get('/about', function(req,res,next)
 {
-   res.render('partial/about');
+   res.render('about');
 });
 //Get Services
-router.get('/partial/services',function(req,res,next)
+router.get('/services',function(req,res,next)
 {
-  res.render('partial/services');
+  res.render('services');
 });
 
 module.exports = router;
