@@ -59,6 +59,7 @@ a
   left: 476px;
   position: relative;
   right: 350px;
+  border-radius: 5px;
 }
 #maincont
 {
@@ -69,6 +70,8 @@ a
 }
 #c1
 {
+  border-radius: 5px;
+  border: 1px solid rgb(214, 202, 202);
   background-color: rgb(223, 220, 220);
   height: 500px;
   opacity: 70%;
@@ -78,15 +81,19 @@ a
 }
 #c2
 {
+  border-radius: 5px;
   background-color: rgb(223, 220, 220);
   height: 500px;
   opacity: 70%;
   margin-left: 50px;
   width: 1200px;
   padding-top: 12px;
+  border: 1px solid rgb(214, 202, 202);
 }
 #c3
 {
+  border: 1px solid rgb(214, 202, 202);
+  border-radius: 5px;
   background-color: rgb(223, 220, 220);
   height: 500px;
   opacity: 70%;
@@ -94,12 +101,13 @@ a
   width: 1200px;
   padding-top: 12px;
 }
-#exp
+.exp
 {
   width: 800px;
   height: 260px;
   margin-left: 20px;
   margin-top: 12px;
+  border-radius: 5px;
 }
 .pe
 {
