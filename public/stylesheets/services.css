@@ -26,7 +26,8 @@
 .pl1
 {
     text-align: center;
-    font-size: large;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-bottom: 3px solid lightgray;
     margin-left: 50px;
     margin-right: 50px;
@@ -47,7 +48,7 @@
 }
 .hs
 {
-    margin-left: 150px;
+    margin-left: 115px;
     font-size: xx-large;
     font-family: monospace;
     color: gray;
@@ -58,10 +59,20 @@
     left: 500px;
     margin-top: 40px;
 }
-#cs
+.cs
 {
     width: 60px;
     height: 60px;
     position: relative;
-    left: 160px;
+    left: 110px;
+}
+#pj
+{
+    position: relative;
+    left: 50px;
+}
+#hjs
+{
+    position: relative;
+    right: 40px;
 }
