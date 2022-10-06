@@ -1,6 +1,14 @@
+<!-- 
+    Contact page ejs
+    Bohdan
+    301280168
+    October 4 2022
+-->
 <head>
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel='stylesheet' href="/stylesheets/contact.css"/>
+
+    <title><%- title %></title>
     <%include partial/head.ejs %>
 </head>
 <body>
@@ -18,7 +26,7 @@
                      ■ Cell phone: 437-533-9944
                  </p>
                  <p>
-                    ■ 941 Progress Ave, Scarborough, ON M1G 3T8
+                     ■ 941 Progress Ave, Scarborough, ON M1G 3T8
                  </p>
                  <br>
                  <br>
@@ -33,33 +41,47 @@
                      <form id="mform">
                         <div>
                             <label>First name:</label>
-                            <input id="fl" type="text" class="dc" placeholder="Type first name">
+                            <input id="fn" type="text" class="dc" placeholder="Type first name">
                         </div>
                         <br>
                         <div>
                             <label>Last name:</label>
-                            <input type="text" class="dc" placeholder="Type last name">
+                            <input type="text" id="ln" class="dc" placeholder="Type last name">
                         </div>
                         <br>
                         <div>
                             <label>Number:</label>
-                            <input type="text" class="dc" placeholder="type number">
+                            <input type="text" id="num" class="dc" placeholder="type number">
                         </div>
                         <br>
                         <div>
                             <label>Email:</label>
-                            <input type="text" class="dc" placeholder="type email">
+                            <input type="text" id="eml" class="dc" placeholder="type email">
                         </div>
                         <br>
                         <div>
                             <label>Message:</label>
                             <input id="msg" type="text" class="dc" placeholder="your message">
                         </div>
-                         <input type="button" id="buts" value="Submit">
+                         <input type="button" id="buts" value="Submit" onclick="myFunction()"><span id="ums"></span>
+                         <script>
+                            function myFunction()
+                            {
+                                document.getElementById("ums").style.color = "green";
+                                document.getElementById("ums").textContent = "Sent successfully!";
+                                let t1 = $("#fn").val();
+                                let t2 = $("#ln").val();
+                                let t3 = $("#num").val();
+                                let t4 = $("#eml").val();
+                                let t5 = $("#msg").val();
+                                console.log("First name:"+t1+"\n"+"Last name:"+t2+"\n"+"Cell number:"+t3+"\n"+"Emal:"+t4+"\n"+"User's message:"+t5);//Display user's info in console
+                            }
+                         </script>
                      </form>
                  </div>
-                </div> 
+                </div>
              </div>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!--//Connect to jquery installed thought npm-->
 </body>

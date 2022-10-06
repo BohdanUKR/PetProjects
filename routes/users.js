@@ -1,3 +1,11 @@
+/*
+<!-- 
+    Users page js
+    Bohdan
+    301280168
+    October 4 2022
+-->
+*/
 var express = require('express');
 var router = express.Router();
 

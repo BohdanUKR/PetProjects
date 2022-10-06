@@ -1,3 +1,9 @@
+/*<!-- 
+    App page js
+    Bohdan
+    301280168
+    October 4 2022
+-->*/
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
