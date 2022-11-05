@@ -1,0 +1,42 @@
+<head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/update.css' />
+    <title><%- title %></title>
+    <link rel="icon" href="/images/global.png">
+    
+    <div id="bc">
+        <div id="logo">
+            <img class="imgmarg" src="/images/pyr.gif">
+        </div>
+            <br>
+            <br>
+    </div>
+</head>
+<body>
+    <div id="servcont">
+        <div id="dexper">
+            <h1 id="hexper">Business contacts:</h1>
+        </div>
+        <div id="inserv">
+              <form class="form" id="pform" method="post">
+                <div>
+                  <label for="UsernameTextField">Username</label>
+                  <input type="text" id="UsernameField" placeholder="Your Username" class="dc" value="<%= myList.Username %>" name="username" required>
+                </div>
+                <br>
+                <div>
+                  <label for="EmailTextField">Email</label>
+                  <input type="text" id="EmailField" class="dc" placeholder="Your Email" value="<%= myList.Email %>" name="email" required>
+                </div>
+                <br>
+                <div>
+                  <label for="NumberField">Number</label>
+                  <input type="number" id="PriceTextField" placeholder="Your Number" class="dc" value="<%= myList.Number %>" name="number" required>
+                </div>
+                <br>
+                <button type="submit" class="butsub">Submit</button>
+                <button class="butupd"><a href="/business" class="butupd">Cancel</a></button>
+              </form>
+        </div>
+    </div>
+</body>
