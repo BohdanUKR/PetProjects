@@ -15,6 +15,20 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
+// import "mongoose" - required for DB Access
+let mongoose = require('mongoose');
+// URI
+let DB = require('./config/db');
+
+mongoose.connect(process.env.URI || DB.URI, {useNewUrlParser: true, useUnifiedTopology: true});
+
+let mongoDB = mongoose.connection;
+mongoDB.on('error', console.error.bind(console, 'Connection Error:'));
+mongoDB.once('open', ()=> 
+{
+  console.log("Successfully connected to MongoDB Atlas...");
+});
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');

@@ -12,6 +12,12 @@
   background-color: rgb(180, 189, 199);
   width: 1300px;
   margin-left: 300px;
+
+    background-color: rgb(154, 177, 204);
+    /*background-color: rgb(180, 189, 199);*/
+  width: 1300px;
+  margin-left: 210px;
+
   height: 600px;
   display: flex;
   border-radius: 5px;

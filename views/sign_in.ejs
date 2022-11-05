@@ -1,0 +1,36 @@
+<head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/sign_in.css' />
+
+    <title><%- title %></title>
+    <%- include partial/head.ejs %>
+</head>
+<body>
+    <div id="servcont">
+      <div id="dexper">
+         <h1 id="hexper">Log in:</h1>
+      </div>
+    <div id="inserv">
+        <div id="uform">
+            <form id="mform">
+                <br>
+                <br>
+                <br>
+                <div>
+                    <label>Username:</label>
+                    <input id="fn" type="text" class="dc" placeholder="type nickname">
+                </div>
+                    <br>
+                    <div>
+                        <label>Password:</label>
+                        <input type="password" id="ln" class="dc" placeholder="type password">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="button" id="buts" value="Log in" onclick="myFunction()"><span id="ums"></span>
+                    </div>
+            </form>
+        </div>
+    </div>
+    </div>
+</body>

@@ -1,0 +1,37 @@
+<head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/business.css' />
+    <title><%- title %></title>
+    <%- include partial/head.ejs %>
+</head>
+
+<body>
+    <div id="servcont">
+        <div id="dexper">
+            <h1 id="hexper">Business contacts:</h1>
+        </div>
+        <div id="inserv">
+         <table class="mtable">
+             <thead>
+                 <tr>
+                     <th>Username</th>
+                     <th>Email</th>
+                     <th>Number</th>
+                     <th>Manage</th>
+                 </tr>
+             </thead>
+                 <tbody>
+                    
+                     <% for (let count = 0; count < myList.length; count++) { %>
+                         <tr>
+                            <td><%= myList[count].Username %></td>
+                            <td><%= myList[count].Email %></td>
+                            <td><%= myList[count].Number %></td>
+                            <td><button class="butupd"><a href="./update/<%= myList[count]._id %>" class="butupd">Update</a></button><button class="butdel"><a href="./delete/<%= myList[count]._id %>" class="butdel">Delete</a></button></td><!---->
+                         </tr>
+                     <% } %>
+                 </tbody>
+            </table>
+        </div>
+    </div>     
+</body>

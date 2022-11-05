@@ -8,6 +8,9 @@ body
 {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: rgb(162, 176, 162);
+  /*background-color: rgb(162, 176, 162);*/
+  /*background-color: rgb(196, 207, 196);*/
+  background-color: rgb(85, 91, 121);
   width: auto;
 }
 img
@@ -47,13 +50,16 @@ a
   width: 100%;
   opacity: 80%;
   background-color: rgb(60, 100, 100);
+  /*background-color: rgb(60, 100, 100);*/
+  background-color: rgb(37, 34, 34);
   display: inline-block;
 }
 #lbdiv
 {
   left: 445px;
-  margin-top: 95px;
   margin-right: 250px;
+  left: 165px;
+  margin-right: 170px;
   padding-left: 70px;
   position: relative;
   display: inline-block;
@@ -62,7 +68,7 @@ a
 }
 #imgitems
 {
-  left: 476px;
+  left: 195px;
   position: relative;
   right: 350px;
   border-radius: 5px;
@@ -72,6 +78,10 @@ a
   background-color: rgb(180, 189, 199);
   width: 1300px;
   margin-left: 300px;
+  background-color: rgb(154, 177, 204);
+  /*background-color: rgb(180, 189, 199);*/
+  width: 1300px;
+  margin-left: 210px;
   height: 1680px;
 }
 #c1
@@ -114,6 +124,9 @@ a
   margin-left: 20px;
   margin-top: 12px;
   border-radius: 5px;
+  text-align: center;
+  position: relative;
+  left: 175px;
 }
 .pe
 {
@@ -131,4 +144,31 @@ a
 .head
 {
   font-weight: lighter;
+}
+#lbi
+{
+  position: relative;
+  margin-left: 25px;
+}
+#lbc
+{
+  position: relative;
+}
+#lbs
+{
+  position: relative;
+}
+#lbp
+{
+  position: relative;
+}
+#lbo
+{
+  position: relative;
+  right: 85px;
+}
+#lbn
+{
+  position: relative;
+  right: 90px;
 }
